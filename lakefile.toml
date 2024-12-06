@@ -1,0 +1,14 @@
+name = "lean-learn"
+version = "0.1.0"
+defaultTargets = ["lean-learn"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "LeanLearn"
+
+[[lean_exe]]
+name = "lean-learn"
+root = "Main"

@@ -1,0 +1,1256 @@
+{
+  "inventory": [
+    "tauto",
+    "[anonymous]",
+    "rfl",
+    "assumption",
+    "trivial",
+    "contradiction",
+    "constructor",
+    "rcases",
+    "left",
+    "right",
+    "intro",
+    "revert",
+    "apply",
+    "symm",
+    "nth_rw",
+    "rw",
+    "by_cases",
+    "Classical.not_not",
+    "imp_iff_not_or",
+    "simp",
+    "Nat.succ_pos",
+    "Nat.pos_iff_ne_zero",
+    "linarith",
+    "ring",
+    "unfold",
+    "use",
+    "Even",
+    "Odd",
+    "even_square",
+    "push_neg",
+    "Classical.not_forall",
+    "Nat.even_iff_not_odd",
+    "Nat.odd_iff_not_even",
+    "not_exists",
+    "Nonempty",
+    "have",
+    "suffices",
+    "by_contra",
+    "not_imp_not",
+    "contrapose",
+    "simp_rw",
+    "Fin",
+    "Finset.sum_add_distrib",
+    "induction",
+    "Fin.sum_univ_castSucc",
+    "Nat.succ_eq_add_one",
+    "Nat.zero_eq",
+    "add_mul",
+    "mul_add",
+    "arithmetic_sum",
+    "Finset.sum_comm",
+    "add_pow_two",
+    "Symbol.function",
+    "let",
+    "Function.comp_apply",
+    "funext",
+    "if_neg",
+    "if_pos",
+    "Function.Injective",
+    "Odd.strictMono_pow",
+    "StrictMono.add",
+    "StrictMono.injective",
+    "Injective",
+    "Function.Surjective",
+    "Function.Bijective",
+    "Exists.choose",
+    "Exists.choose_spec",
+    "LeftInverse",
+    "RightInverse",
+    "Function.bijective_iff_has_inverse",
+    "Set.mem",
+    "Set.univ",
+    "Set.mem_univ",
+    "Set.empty",
+    "Set.not_mem_empty",
+    "Set.Subset",
+    "Set.subset_univ",
+    "Set.Subset.antisymm_iff",
+    "Set.empty_subset",
+    "Set.subset_empty_iff",
+    "Set.eq_empty_iff_forall_not_mem",
+    "Set.Nonempty",
+    "Set.nonempty_iff_ne_empty",
+    "Set.diff_inter",
+    "Set.union_assoc",
+    "Set.union_diff_distrib",
+    "Set.univ_union",
+    "Set.mem_compl_iff",
+    "Set.mem_of_subset_of_mem",
+    "Set.not_mem_compl_iff",
+    "Set.compl_eq_univ_diff",
+    "Set.compl_inter",
+    "Set.compl_union",
+    "Set.diff_diff",
+    "Set.diff_eq_compl_inter",
+    "Set.inter_comm",
+    "Set.mem_diff",
+    "Set.ssubset_def",
+    "Set.subset_def",
+    "not_imp",
+    "Set.mem_insert_iff",
+    "Set.mem_singleton_iff",
+    "Set.mem_setOf",
+    "Set.mem_powerset_iff",
+    "Set.mem_union",
+    "Set.subset_union_of_subset_left",
+    "Set.subset_union_of_subset_right",
+    "Disjoint",
+    "Set.mem_inter_iff",
+    "Set.setOf_and",
+    "Set.setOf_or",
+    "fin_cases"
+  ],
+  "openedIntro": true,
+  "data": {
+    "Proposition": {
+      "1": {
+        "code": "tauto\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "rfl\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "assumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "assumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "5": {
+        "code": "trivial\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "6": {
+        "code": "trivial\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "7": {
+        "code": "contradiction\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "8": {
+        "code": "contradiction\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "9": {
+        "code": "contradiction\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "10": {
+        "code": "constructor\nassumption\nassumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "11": {
+        "code": "rcases h with ⟨ha,⟨hb,hc⟩⟩\nassumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "12": {
+        "code": "left\nassumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "13": {
+        "code": "rcases h with h | h\nrcases h with ⟨ha,hb⟩\nassumption\nassumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "14": {
+        "code": "constructor\nrcases h with ha | hbc\nleft\nassumption\nrcases hbc with ⟨hb,hc⟩\nright\nassumption\nrcases h with ha | ⟨hb,hc⟩\nleft\nassumption\nright\nassumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 13,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 13,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "Implication": {
+      "1": {
+        "code": "intro h\r\nconstructor\r\nassumption\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "revert hA\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "apply hAB at h\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "intro ha\r\napply f at ha\r\napply g at ha\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "5": {
+        "code": "intro h\r\napply f at h\r\napply i at h\r\napply l at h\r\napply p at h\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "6": {
+        "code": "constructor\r\nassumption\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "7": {
+        "code": "symm\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "8": {
+        "code": "rw [h₁]\r\nrw [← h₂]\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "9": {
+        "code": "intro ha\r\napply (h.mp) at ha\r\napply g at ha\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "10": {
+        "code": "intro hab\r\nrcases hab with ⟨mp,mpr⟩\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "11": {
+        "code": "by_cases h : A\r\nright\r\nassumption\r\nleft\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 6,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 6,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "12": {
+        "code": "rw [not_not]\r\nrw [not_not]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "13": {
+        "code": "constructor\r\nintro hab\r\nby_cases ha : A\r\napply hab at ha\r\nright\r\nassumption\r\nleft\r\nassumption\r\nintro hnab\r\nrcases hnab with hna | hb\r\nintro ha\r\ncontradiction\r\nintro ha\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 15,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 15,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "Inequality": {
+      "1": {
+        "code": "rfl\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "rcases n\r\nsimp\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "linarith\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "linarith\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "Predicate": {
+      "1": {
+        "code": "ring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "rw [h₁]\r\nrw [←h₃]\r\nrw [h₂]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "rw [h] at g\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "rw [h,g]\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "5": {
+        "code": "rfl\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "6": {
+        "code": "unfold Even at *\r\nrcases h with ⟨r,hr⟩\r\nuse (2*r^2)\r\nrw [hr]\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 6,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 6,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "7": {
+        "code": "unfold Odd at *\r\nrcases h with ⟨r,hr⟩\r\nrw [hr]\r\nring\r\nuse (2*r+2*r^2)\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          0
+        ]
+      },
+      "8": {
+        "code": "intro x\r\nintro ex\r\nunfold Even at ex\r\nunfold Odd\r\nrcases ex with ⟨r,hr⟩\r\nrw [hr]\r\nuse r\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 9,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 9,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "9": {
+        "code": "push_neg\r\nconstructor\r\nintro anp\r\nassumption\r\nintro anp\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "10": {
+        "code": "push_neg\r\nintro n\r\nuse n\r\nrw [←even_iff_not_odd]\r\nunfold Even\r\nuse n\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "11": {
+        "code": "by_cases h : ∀ (z : People), isDrinking z\r\nrcases h_nonempty with ⟨p⟩\r\nuse p\r\nintro hp\r\nassumption\r\nrcases h_nonempty with ⟨p⟩\r\npush_neg at h\r\nrcases h with ⟨z,hz⟩\r\nuse z\r\nintro hdz\r\ncontradiction\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 12,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 12,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "Contradiction": {
+      "1": {
+        "code": "rcases k with ⟨ha,hb⟩\r\nhave g : ¬B\r\napply h ha\r\ncontradiction\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "suffices g : ¬B\r\ncontradiction\r\napply h at k₁\r\ncontradiction\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "by_contra h\r\nsuffices k : B\r\ncontradiction\r\napply g h\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "constructor\r\nintro hab\r\nintro hnb ha\r\nsuffices g : B\r\ncontradiction\r\napply hab at ha\r\ncontradiction\r\nintro h\r\nintro ha\r\nby_contra hnb\r\nsuffices g : ¬A\r\ncontradiction\r\napply h at hnb\r\ncontradiction\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 15,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 15,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "5": {
+        "code": "revert h\r\ncontrapose\r\nrw [←Nat.even_iff_not_odd]\r\nrw [←Nat.even_iff_not_odd]\r\napply even_square\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 6,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 6,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          2
+        ]
+      },
+      "6": {
+        "code": "by_contra g\r\nsuffices k : ¬Odd (n ^ 2)\r\ncontradiction\r\nrw [←  Nat.even_iff_not_odd] at *\r\napply even_square n g\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 6,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 6,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "Sum": {
+      "1": {
+        "code": "simp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "rw [sum_add_distrib]\r\nsimp\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "induction n with d hd\r\nsimp\r\nrw [sum_univ_castSucc]\r\nsimp\r\nrw [mul_add]\r\nrw [hd]\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 8,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 8,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          4
+        ]
+      },
+      "4": {
+        "code": "induction n with d hd\r\nring\r\nrw [sum_univ_castSucc]\r\nsimp\r\nrw [hd]\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          2
+        ]
+      },
+      "5": {
+        "code": "rw [sum_comm]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "6": {
+        "code": "induction m with d hd\r\nsimp\r\nrw [sum_univ_castSucc]\r\nsimp\r\nrw [hd]\r\nrw [sum_univ_castSucc (n := d + 1)]\r\nsimp\r\nrw [add_pow_two]\r\nrw [arithmetic_sum]\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 11,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 11,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          2
+        ]
+      }
+    },
+    "Function": {
+      "1": {
+        "code": "use (λ x ↦ x - 1)\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "let g := λ (x : ℤ) ↦ x - 3\r\nuse g\r\nsimp\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          3
+        ]
+      },
+      "3": {
+        "code": "funext x\r\nsimp\r\nby_cases h : 0 ≤ x\r\nsimp [f,g]\r\nrw [if_pos h]\r\nrw [if_pos h]\r\nring\r\nsimp [f,g]\r\nrw [if_neg h]\r\nrw [if_neg h]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 11,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 11,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "unfold Injective\r\nintro x y\r\nintro hf\r\nsimp [f] at hf\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 6,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 6,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "5": {
+        "code": "apply StrictMono.injective\r\napply StrictMono.add\r\napply Odd.strictMono_pow\r\nunfold Odd\r\nuse 1\r\nring\r\nunfold StrictMono\r\nintro a b g\r\nsimp\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 11,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 11,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          0
+        ]
+      },
+      "6": {
+        "code": "unfold Injective\r\npush_neg\r\nuse 2\r\nuse 3\r\nsimp\r\nsimp_rw [f]\r\nsimp\r\nrw[if_neg]\r\nrw [← Nat.odd_iff_not_even]\r\nunfold Odd\r\nuse 1\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 13,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 13,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "7": {
+        "code": "unfold Surjective\r\nintro b\r\nuse (b-1)\r\nsimp_rw [f]\r\nring\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 6,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 6,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "8": {
+        "code": "unfold Bijective\r\nconstructor\r\nunfold Injective\r\nintro x y\r\nsimp_rw [f]\r\nintro h\r\nsimp at h\r\nassumption\r\nunfold Surjective\r\nintro b\r\nuse b - 1\r\nsimp_rw [f]\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 14,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 14,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "9": {
+        "code": "constructor\r\nintro bf\r\nrcases bf with ⟨hI,hS⟩\r\nlet g := λ y ↦ (hS y).choose\r\nuse g\r\nsimp_rw[RightInverse,LeftInverse]\r\nconstructor\r\nintro x\r\nsimp_rw[g]\r\napply hI\r\napply Exists.choose_spec (hS (f x))\r\nintro x\r\nsimp_rw[g]\r\napply Exists.choose_spec (hS x)\r\nintro heg\r\nrcases heg with ⟨g,⟨lgf,rgf⟩⟩\r\nunfold Bijective\r\nunfold Injective\r\nconstructor\r\nintro x y\r\nintro fxy\r\nhave w := lgf x\r\nunfold LeftInverse at lgf\r\nunfold RightInverse at rgf\r\nunfold LeftInverse at rgf\r\nrw [←w]\r\nrw [fxy]\r\nrw [lgf]\r\nunfold Surjective\r\nintro b\r\nunfold RightInverse at rgf\r\nunfold LeftInverse at rgf\r\nuse (g b)\r\nrw [rgf]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 35,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 35,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "SetTheory": {
+      "1": {
+        "code": "trivial\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "tauto\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "intro x xinA\r\ntrivial\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "constructor\r\nintro sOfEmpty\r\nrw [Subset.antisymm_iff]\r\nconstructor\r\nassumption\r\napply Set.empty_subset s\r\nintro sIsEmpty\r\nrw [sIsEmpty]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 9,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 9,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          0,
+          7
+        ]
+      },
+      "5": {
+        "code": "constructor\r\nintro sIsEmpty\r\nintro x\r\nrw [sIsEmpty]\r\napply Set.not_mem_empty\r\nintro hxins\r\nrw [Subset.antisymm_iff]\r\nconstructor\r\nintro x hx\r\napply hxins at hx\r\ncontradiction\r\napply Set.empty_subset\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 13,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 13,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "6": {
+        "code": "unfold Set.Nonempty\r\nconstructor\r\nintro exs\r\nintro sEmpty\r\nrw [eq_empty_iff_forall_not_mem] at sEmpty\r\npush_neg at sEmpty\r\ntauto\r\nintro sNeqEmpty\r\nby_contra h\r\npush_neg at h\r\nrw[← eq_empty_iff_forall_not_mem] at h\r\ncontradiction\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 13,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 13,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "7": {
+        "code": "simp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "8": {
+        "code": "rw [Set.union_assoc,←Set.union_diff_distrib]\r\nrw [Set.univ_union]\r\nrw [← Set.diff_inter]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "9": {
+        "code": "rw [Subset.antisymm_iff]\r\nconstructor\r\napply Set.subset_univ\r\nintro x\r\nintro xinU\r\nby_cases g : x ∈ Aᶜ\r\napply Set.mem_of_subset_of_mem h g\r\nrw [Set.not_mem_compl_iff] at g\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 10,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 10,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "10": {
+        "code": "rw [← Set.compl_union]\r\nrw [Set.diff_diff]\r\nrw [← Set.compl_eq_univ_diff]\r\nrw [← Set.compl_eq_univ_diff]\r\nrw [← Set.union_diff_distrib]\r\nrw [← Set.compl_inter]\r\nrw [Set.diff_eq_compl_inter]\r\nrw [inter_comm]\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 9,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 9,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "11": {
+        "code": "rw [Set.ssubset_def] at h\r\nrw [Set.subset_def] at h\r\nrw [Set.subset_def] at h\r\nrcases h with ⟨hl,hr⟩\r\npush_neg at hr\r\nrcases hr with ⟨x,hxna⟩\r\nuse x\r\nrw [Set.mem_diff]\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 10,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 10,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "12": {
+        "code": "rfl\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "13": {
+        "code": "rw [subset_def]\r\nintro x hx\r\nsimp_rw [mem_insert_iff,mem_singleton_iff] at *\r\ntauto\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "SetTheory2": {
+      "1": {
+        "code": "rw [mem_setOf]\r\ntrivial\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 3,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 3,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "2": {
+        "code": "intro S\r\nrw [mem_powerset_iff]\r\nintro SinPxPy\r\nintro x\r\nintro xInS\r\nrw [Set.mem_union]\r\nrw [Set.mem_union] at SinPxPy\r\nrcases SinPxPy with sinPx | sinPy\r\nleft\r\nrw [Set.mem_powerset_iff] at sinPx\r\napply Set.mem_of_subset_of_mem sinPx xInS\r\nright\r\nrw [Set.mem_powerset_iff] at sinPy\r\napply Set.mem_of_subset_of_mem sinPy xInS\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 15,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 15,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
+        "code": "unfold Disjoint\r\npush_neg\r\nuse {6}\r\nsimp\r\nuse 3\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "4": {
+        "code": "intro x\r\nintro x2or7\r\nrw [mem_setOf]\r\nrcases x2or7 with x2 | x7\r\nleft\r\nassumption\r\nsimp at x7\r\nright\r\nrw [x7]\r\nunfold Odd\r\nsimp\r\nuse 3\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 14,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 14,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "5": {
+        "code": "intro n\r\nintro ninC\r\nrw [setOf_and] at ninC\r\nrw [Set.mem_inter_iff] at ninC\r\nrcases ninC with ⟨ninS,nLE0⟩\r\nrw [Set.mem_setOf] at ninS\r\nassumption\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 8,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 8,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "6": {
+        "code": "rw [Set.mem_setOf]\r\nunfold Odd\r\nuse 1\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "7": {
+        "code": "tauto\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "8": {
+        "code": "rw [Set.mem_setOf]\r\nunfold Odd\r\nuse 1\r\nsimp\r\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 5,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 5,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      }
+    },
+    "Matrix": {
+      "1": {
+        "code": "",
+        "completed": false,
+        "selections": [],
+        "help": []
+      }
+    }
+  },
+  "difficulty": 2,
+  "typewriterMode": true
+}
