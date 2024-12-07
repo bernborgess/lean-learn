@@ -10,7 +10,10 @@ theorem List.length_filter_tail_lt.{u} {α : Type u} (p : α → Bool) (xs : Lis
   . simp_rw [xs_eq_ht]
     exact Nat.lt_add_one t.length
  
-def quick : List Int → List Int
+def quick_sort [LT α] [LE α]
+  [DecidableRel ((·<·) : α → α → Prop)]
+  [DecidableRel ((·≥·) : α → α → Prop)]
+  : List α → List α
 | [] => []
 | h::t => 
   let less := t.filter (· < h)
@@ -22,8 +25,9 @@ def quick : List Int → List Int
   have : more.length < (h::t).length := 
     (h::t).length_filter_tail_lt (· ≥ h) (t.cons_ne_nil h)
 
-  quick less ++ [h] ++ quick more
+  quick_sort less ++ [h] ++ quick_sort more
 
 termination_by xs => xs.length
 
-#eval 1 + 1
+#eval quick_sort [1,2,5,4,3]
+
