@@ -1,21 +1,32 @@
-import Init.Data.Nat.Basic
+import Mathlib.Tactic.SimpRw
 
+#check List.length_filter_le
+/- List.length_filter_le.{u_1}
+\  {α : Type u_1} (p : α → Bool) (l : List α)
+\  : (List.filter p l).length ≤ l.length 
+\  -/
+
+theorem List.length_filter_tail_lt (xs : List Int) (p : Int → Int → Bool)
+  (xs_not_empty : xs ≠ [])
+  : (xs.tail.filter (p (xs.head xs_not_empty))).length < xs.length := by
+  obtain ⟨h,t,xs_eq_ht⟩ := xs.exists_cons_of_ne_nil xs_not_empty
+  have xs_tail_eq_t : xs.tail = t := by rw [xs_eq_ht]; apply t.tail_cons
+  have xs_head_eq_h : xs.head xs_not_empty = h := by simp_rw [xs_eq_ht]; rfl
+  have p1 : (xs.tail.filter (p (xs.head xs_not_empty))).length ≤ t.length :=  by
+    rw [xs_tail_eq_t,xs_head_eq_h]; apply length_filter_le (p h) t
+  have p2 : t.length < xs.length := by
+    rw [xs_eq_ht]; exact Nat.lt_add_one t.length
+  apply Nat.lt_of_le_of_lt p1 p2
+  
 def quick : List Int → List Int
 | [] => []
 | h::t => 
   let less := t.filter (· < h)
   let more := t.filter (· ≥ h)
-  have : less.length < (h::t).length := by
-    have ls_le_t : less.length ≤ t.length := by
-      exact List.length_filter_le (fun x => decide (x < h)) t
-    have t_lt_ht : t.length < (h::t).length := Nat.lt.base (List.length t)
-    exact Nat.lt_of_le_of_lt ls_le_t t_lt_ht
-  have : more.length < (h::t).length := by 
-    have ls_le_t : more.length ≤ t.length := by
-      exact List.length_filter_le (fun x => decide (x ≥ h)) t
-    have t_lt_ht : t.length < (h::t).length := Nat.lt.base (List.length t)
-    exact Nat.lt_of_le_of_lt ls_le_t t_lt_ht
+  have : less.length < (h::t).length :=
+    (h::t).length_filter_tail_lt (λ h x ↦ x < h) (t.cons_ne_nil h)
+  have : more.length < (h::t).length := 
+    (h::t).length_filter_tail_lt (λ h x ↦ x ≥ h) (t.cons_ne_nil h)
   quick less ++ [h] ++ quick more
 termination_by xs => xs.length
-
 
